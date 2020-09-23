@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 5rem;
+}
+
+.column-left {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    height: 5rem;
+    text-align: end;
+}
+
+.column-bd {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 5rem;
+    text-align: center;
+}
+
+.column-we-left {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    height: 5rem;
+    text-align: left;
+}
+
+.column-detail {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    height: 5rem;
+    text-align: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.input-area {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.div-margin {
+    margin-top: 2rem;
+}
+
+.column-bullet-height {
+    height: 100%;
+}
+
+.column-education-bullet-area {
+    float: left;
+    width: 13rem;
+    height: 100%;
+}
+
+.column-education-detail-area {
+    text-align: left;
+    width: 100%;
+}
+
+.button-submit {
+    background-color: grey;
+    border: 2px solid black;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.invalid-input {
+    border: 2px solid Red !important;
+}
+
+p,
+li,
+h4,
+h3,
+h1 {
+    font-family: verdana;
+}
+
+.header-text {
+    font-size: 8.5 !important;
+}
